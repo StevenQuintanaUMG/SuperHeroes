@@ -1,9 +1,10 @@
 ﻿using SuperHeroes.clases;
 
-//Superman superM = new Superman();
+Superman superM = new Superman();
 
-//superM.Fuerza = 150;
-//superM.Nombre = "Clark Kent";
+superM.Fuerza = 150;
+superM.Nombre = "Clark Kent";
+superM.agilidad = 100;
 //superM.presentarse();
 //superM.salvarElMundo();
 //superM.volar();
