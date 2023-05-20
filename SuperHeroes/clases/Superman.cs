@@ -11,6 +11,8 @@ namespace SuperHeroes.clases
         string ISuperHeroes.Fuerza { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Nombre { get; set; }
         public int Fuerza { get; set; }
+        public int id { get; set; }
+        public int agilidad { get; set; }
 
         public void volar()
         {
